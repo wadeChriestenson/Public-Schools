@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 data = pd.read_csv('Public_School_Locations_2018-19.csv')
 Data = pd.DataFrame(data)
 
-mapbox_access_token = "pk.eyJ1Ijoid2FkZTEyOSIsImEiOiJja2Q0bW1pYXkxaWszMnFtdHpyNGh6MHBjIn0.T7KO_vcHJuW40biVeCIUGQ"
+mapbox_access_token = "<you access token>"
 
 fig = go.Figure(go.Scattermapbox(
     lat=Data['LAT'],
